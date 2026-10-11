@@ -4,4 +4,5 @@
 
 | Date | Week | Question | Status |
 |---|---|---|---|
-|  |  |  | open |
+| 2026-10-11 | 1 | What is the ergonomic 3D equivalent of Engelbart's mouse that avoids "Gorilla Arm" fatigue in spatial computing? | open |
+

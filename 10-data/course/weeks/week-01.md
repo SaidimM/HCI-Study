@@ -4,7 +4,7 @@ title: "What is HCI? Feedback Cycles & the Gulfs"
 start: 2026-10-05
 due: 2026-10-11
 homework: "Everyday Gulfs Field Observation"
-status: not-started   # not-started | in-progress | submitted | graded
+status: graded   # not-started | in-progress | submitted | graded
 tags: [course, week/01]
 ---
 
@@ -15,9 +15,9 @@ tags: [course, week/01]
 
 ## 🎯 Learning goals
 
-- [ ] Explain what HCI studies and how it differs from software engineering
-- [ ] Describe Norman's 7 stages of action and the gulfs of execution & evaluation
-- [ ] Observe real people struggling with real interfaces
+- [x] Explain what HCI studies and how it differs from software engineering
+- [x] Describe Norman's 7 stages of action and the gulfs of execution & evaluation
+- [x] Observe real people struggling with real interfaces
 
 ## 📚 Materials
 
@@ -40,12 +40,12 @@ tags: [course, week/01]
 
 ## 🧠 Concept notes to create this week
 
-- [ ] [[affordance]]
-- [ ] [[signifier]]
-- [ ] [[feedback]]
-- [ ] [[gulf-of-execution]]
-- [ ] [[gulf-of-evaluation]]
-- [ ] [[seven-stages-of-action]]
+- [x] [[affordance]]
+- [x] [[signifier]]
+- [x] [[feedback]]
+- [x] [[gulf-of-execution]]
+- [x] [[gulf-of-evaluation]]
+- [x] [[seven-stages-of-action]]
 
 ## 📝 Homework 01 — Everyday Gulfs Field Observation
 
@@ -55,10 +55,10 @@ For **one** of them, **observe one other person** using it (with their permissio
 
 **Deliverables**
 
-- [ ] One section per interface: photo/screenshot, user goal, 7-stage walkthrough, where the gulfs are
-- [ ] Observation log of 1 real person (P1): timeline of actions, hesitations, errors
-- [ ] For each interface: 1 concrete redesign idea that narrows a gulf
-- [ ] ~800–1200 words
+- [x] One section per interface: photo/screenshot, user goal, 7-stage walkthrough, where the gulfs are
+- [x] Observation log of 1 real person (P1): timeline of actions, hesitations, errors
+- [x] For each interface: 1 concrete redesign idea that narrows a gulf
+- [x] ~800–1200 words
 
 **Rubric (/15)**
 
@@ -74,13 +74,13 @@ For **one** of them, **observe one other person** using it (with their permissio
 
 ## ✅ Definition of done
 
-- [ ] Lecture notes written
-- [ ] All concept notes created (in your own words)
-- [ ] Paper note written
-- [ ] `20-notes/homework/hw01-everyday-gulfs/submission.md` complete
-- [ ] `20-notes/homework/hw01-everyday-gulfs/grade.md` self-graded (optional: sent to TA for review)
-- [ ] Weekly review in journal
-- [ ] Post drafted in `30-posts/`
+- [x] Lecture notes written
+- [x] All concept notes created (in your own words)
+- [x] Paper note written
+- [x] `20-notes/homework/hw01-everyday-gulfs/submission.md` complete
+- [x] `20-notes/homework/hw01-everyday-gulfs/grade.md` self-graded (optional: sent to TA for review)
+- [x] Weekly review in journal
+- [x] Post drafted in `30-posts/`
 
 ## 📣 Post idea
 
