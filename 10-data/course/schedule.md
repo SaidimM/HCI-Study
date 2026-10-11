@@ -9,7 +9,7 @@ tags: [course, schedule]
 | Week | Dates | Topic | Homework | Status |
 |---|---|---|---|---|
 | [[week-01\|1]] | Oct 05 – Oct 11 | What is HCI? Feedback Cycles & the Gulfs | Everyday Gulfs Field Observation | 🟩 |
-| [[week-02\|2]] | Oct 12 – Oct 18 | Design Principles, Mental Models & Heuristics | Heuristic Evaluation of a Developer Tool | ⬜ |
+| [[week-02\|2]] | Oct 12 – Oct 18 | Design Principles, Mental Models & Heuristics | Heuristic Evaluation of a Developer Tool | 🟨 |
 | [[week-03\|3]] | Oct 19 – Oct 25 | Human Abilities: Perception, Memory & Motor Control | Build & Run a Fitts's Law Experiment | ⬜ |
 | [[week-04\|4]] | Oct 26 – Nov 01 | Methods I: Ethics & Needfinding | Needfinding: 3 Interviews + Affinity Diagram (Semester Project Part 1) | ⬜ |
 | [[week-05\|5]] | Nov 02 – Nov 08 | Methods II: Task Analysis, Distributed Cognition & Problem Definition | Problem Definition (Semester Project Part 2) | ⬜ |

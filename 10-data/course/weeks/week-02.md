@@ -4,7 +4,7 @@ title: "Design Principles, Mental Models & Heuristics"
 start: 2026-10-12
 due: 2026-10-18
 homework: "Heuristic Evaluation of a Developer Tool"
-status: not-started   # not-started | in-progress | submitted | graded
+status: in-progress   # not-started | in-progress | submitted | graded
 tags: [course, week/02]
 ---
 

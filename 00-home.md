@@ -1,11 +1,11 @@
 # 🏠 Home
 
-> **Now:** Week 1 — [[week-01|What is HCI? Feedback Cycles & the Gulfs]] · due **Sun Oct 11**
+> **Now:** Week 2 — [[week-02|Design Principles, Mental Models & Heuristics]] · due **Sun Oct 18**
 > *(Update this line every Monday.)*
 
 ## Quick links
 - 📘 [[syllabus]] · 📅 [[schedule]] · 🎯 [[phd-roadmap]]
-- 📝 Current homework: [[20-notes/homework/hw01-everyday-gulfs/submission|HW01 submission]]
+- 📝 Current homework: [[20-notes/homework/hw02-heuristic-evaluation/submission|HW02 submission]]
 - 💭 [[inbox]] · ❓ [[questions]] · 💡 [[post-ideas]]
 - 📡 Latest papers: `10-data/sources/arxiv-digests/`
 
