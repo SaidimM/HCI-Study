@@ -64,12 +64,17 @@ A **Conceptual Model** (or mental model) is an internal cognitive simulation of 
 
 ### Case A: The Thermostat Fallacy (Valve Model vs. Binary Switch)
 
-![Honeywell Round Thermostat](assets/honeywell-round-thermostat.jpg)
-*> Classic Honeywell round rotary thermostat: the gradated dial and single knob encourage the false mental model of a continuous valve.*
-
-- **The User's Model (The Valve Fallacy):** When a room is freezing, the user turns the dial to 30°C (86°F), believing the heater will pump out hotter air faster—just like turning a water faucet wider releases more water.
-- **The Design Model (Binary Furnace Switch):** A thermostat is a binary bang-bang controller. The furnace is either 100% ON or 100% OFF. Setting it to 30°C does not accelerate warming; it only wastes fuel and overheats the house an hour later.
-- **Why the System Image Failed:** A single dial with gradated numbers suggests a continuous throttle (valve). The system image provided zero visibility into the binary furnace state.
+<div style="display: flex; gap: 24px; align-items: flex-start; margin: 16px 0;">
+  <div style="flex: 1;">
+    <p><strong>The User's Model (The Valve Fallacy):</strong> When a room is freezing, the user turns the dial to 30°C (86°F), believing the heater will pump out hotter air faster—just like turning a water faucet wider releases more water.</p>
+    <p><strong>The Design Model (Binary Furnace Switch):</strong> A thermostat is a binary bang-bang controller. The furnace is either 100% ON or 100% OFF. Setting it to 30°C does not accelerate warming; it only wastes fuel and overheats the house an hour later.</p>
+    <p><strong>Why the System Image Failed:</strong> A single dial with gradated numbers suggests a continuous throttle (valve). The system image provided zero visibility into the binary furnace state.</p>
+  </div>
+  <div style="width: 250px; flex-shrink: 0;">
+    <img src="assets/honeywell-round-thermostat.jpg" alt="Honeywell Round Thermostat" style="border-radius: 6px; width: 100%;">
+    <p style="font-size: 0.8em; opacity: 0.7; margin-top: 6px; text-align: center;"><em>Classic Honeywell T87: gradated dial encourages false valve model.</em></p>
+  </div>
+</div>
 
 ```
 ┌─────────────────────────────────┬─────────────────────────────────┐

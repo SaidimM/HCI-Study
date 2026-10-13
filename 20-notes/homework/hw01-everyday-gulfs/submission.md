@@ -18,11 +18,15 @@ tags: [homework, week/01, field-observation, gulfs]
 
 ## Interface 1 (Physical): Flush & Hidden Electric Vehicle Door Handles
 
-### Context & Description
-Modern electric vehicles (most notably Tesla Model 3 and Model Y) replace traditional protruding mechanical door handles with aerodynamic flush handles. To open from the outside, the user must press the wide rear portion with their thumb to pivot the skinny front portion outwards, then grasp the lever with their fingers to pull the door open. On the interior, opening the door requires pressing an unmarked electronic button on the armrest rather than pulling a mechanical latch.
-
-![Tesla Flush Door Handle](assets/tesla-flush-door-handle.jpg)
-*> Flush aerodynamic door handle on vehicle exterior: creates a severe Gulf of Execution due to absent visual signifiers indicating the pivot direction.*
+<div style="display: flex; gap: 24px; align-items: flex-start; margin: 16px 0;">
+  <div style="flex: 1;">
+    <p>Modern electric vehicles (most notably Tesla Model 3 and Model Y) replace traditional protruding mechanical door handles with aerodynamic flush handles. To open from the outside, the user must press the wide rear portion with their thumb to pivot the skinny front portion outwards, then grasp the lever with their fingers to pull the door open. On the interior, opening the door requires pressing an unmarked electronic button on the armrest rather than pulling a mechanical latch.</p>
+  </div>
+  <div style="width: 260px; flex-shrink: 0;">
+    <img src="assets/tesla-flush-door-handle.jpg" alt="Tesla Flush Door Handle" style="border-radius: 6px; width: 100%;">
+    <p style="font-size: 0.8em; opacity: 0.7; margin-top: 4px; text-align: center;"><em>Flush handle: absent visual signifiers for pivot axis.</em></p>
+  </div>
+</div>
 
 ### User Goal
 Enter or exit the vehicle smoothly without confusion or physical hesitation.
@@ -97,8 +101,16 @@ In contrast, Apple Music adheres to Mark Weiser’s [[ubiquitous-computing|Calm 
 
 ## Interface 3 (Physical): Apartment Door Lockouts & Forcing Functions
 
-### Context & Description
-Leaving an apartment for work and accidentally locking keys inside. Attempting to place keys on a hook near the door serves as an informal visual signifier, but users still experience action slips when rushing or distracted.
+<div style="display: flex; gap: 24px; align-items: flex-start; margin: 16px 0;">
+  <div style="flex: 1;">
+    <p>Leaving an apartment for work and accidentally locking keys inside. Attempting to place keys on a hook near the door serves as an informal visual signifier, but users still experience action slips when rushing or distracted.</p>
+    <p>Because spring latches lock automatically upon closing, the feedback loop closes too late—the user only discovers the missing key after the irreversible mechanical event has already locked them out.</p>
+  </div>
+  <div style="width: 240px; flex-shrink: 0;">
+    <img src="assets/key-in-door-lock.jpg" alt="Key in Lock" style="border-radius: 6px; width: 100%;">
+    <p style="font-size: 0.8em; opacity: 0.7; margin-top: 4px; text-align: center;"><em>Physical Interlock: requiring key insertion to deadbolt lock.</em></p>
+  </div>
+</div>
 
 ### User Goal
 Leave the apartment and lock the door securely while ensuring the physical key is in hand.

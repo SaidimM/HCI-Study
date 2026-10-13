@@ -73,12 +73,49 @@ A signifier is any perceivable signal, mark, or physical trace that communicates
 
 ### Real-World Photo Examples
 
-| Dimension | Question Answered | Real Physical Artifact |
-|---|---|---|
-| **01 · WHAT** | What action is possible? | **Trash Can Foot Pedal:** The ribbed lever at floor level signifies that foot depression triggers lid opening, preserving sanitary hands.<br><br>![Pedal Trash Can](assets/pedal-trash-can.jpg) |
-| **02 · WHERE** | Where should action take place? | **Toilet Dual-Flush Button:** Recessed chrome crescents demarcate the exact physical touch target and mechanical water volume choice.<br><br>![Dual Flush Buttons](assets/toilet-dual-flush-button.jpg) |
-| **03 · HOW** | How should it be performed? | **BottomSheet Grabber:** A horizontal oval pill bar signals vertical axis dragging, reinforced by an introductory animated slide peek (Feedforward). |
-| **04 · STATE** | What state is the system in? | **Badges & Status LEDs:** Red counter pills or green glowing rings communicate the invisible background status of the system. |
+<div style="display: flex; gap: 24px; align-items: center; margin: 16px 0;">
+  <div style="flex: 1;">
+    <h4>01 · WHAT is possible? (Action Possibility)</h4>
+    <p><strong>Trash Can Foot Pedal:</strong> The ribbed lever at floor level signifies that foot depression triggers lid opening, preserving sanitary hands without requiring printed instructions.</p>
+  </div>
+  <div style="width: 220px; flex-shrink: 0;">
+    <img src="assets/pedal-trash-can.jpg" alt="Pedal Trash Can" style="border-radius: 6px; width: 100%;">
+    <p style="font-size: 0.8em; opacity: 0.7; margin-top: 4px; text-align: center;"><em>Pedal at floor level signals foot actuation.</em></p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 24px; align-items: center; margin: 16px 0;">
+  <div style="flex: 1;">
+    <h4>02 · WHERE to act? (Spatial Touch Target)</h4>
+    <p><strong>Toilet Dual-Flush Button:</strong> Recessed chrome crescents demarcate the exact physical touch target and mechanical water volume choice (half vs. full flush).</p>
+  </div>
+  <div style="width: 220px; flex-shrink: 0;">
+    <img src="assets/toilet-dual-flush-button.jpg" alt="Toilet Dual-Flush Button" style="border-radius: 6px; width: 100%;">
+    <p style="font-size: 0.8em; opacity: 0.7; margin-top: 4px; text-align: center;"><em>Split chrome crescents indicate touch target & flush volume.</em></p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 24px; align-items: center; margin: 16px 0;">
+  <div style="flex: 1;">
+    <h4>03 · HOW to do it? (Kinematic / Direction)</h4>
+    <p><strong>BottomSheet Grabber:</strong> A centered horizontal oval pill bar signals vertical-axis dragging, reinforced by introductory animated slide peek (Feedforward).</p>
+  </div>
+  <div style="width: 220px; flex-shrink: 0;">
+    <img src="assets/android-bottomsheet-grabber.png" alt="BottomSheet Grabber" style="border-radius: 6px; width: 100%;">
+    <p style="font-size: 0.8em; opacity: 0.7; margin-top: 4px; text-align: center;"><em>Pill grabber signals vertical drag affordance.</em></p>
+  </div>
+</div>
+
+<div style="display: flex; gap: 24px; align-items: center; margin: 16px 0;">
+  <div style="flex: 1;">
+    <h4>04 · System STATE? (Status & Readiness)</h4>
+    <p><strong>App Badges & Kettle LEDs:</strong> Red counter pills or green glowing rings communicate the invisible background status of the system (e.g., 3 unread messages waiting).</p>
+  </div>
+  <div style="width: 220px; flex-shrink: 0;">
+    <img src="assets/app-notification-badge.jpg" alt="Notification Badge" style="border-radius: 6px; width: 100%;">
+    <p style="font-size: 0.8em; opacity: 0.7; margin-top: 4px; text-align: center;"><em>Red dot badge signals unread state.</em></p>
+  </div>
+</div>
 
 ---
 
@@ -101,10 +138,17 @@ Signifiers do not only originate on a designer's canvas. They are split into two
 ```
 
 ### Accidental Signifier in the Wild: The Desire Path
-Natural physical traces left by previous users convey actionable meaning without deliberate design. A worn dirt trail across a lawn signifies the optimal human route:
 
-![Desire Path](assets/desire-path.jpg)
-*> A "desire path" formed across grass: previous human footprints create a physical trace that signifies the fastest route to future pedestrians.*
+<div style="display: flex; gap: 24px; align-items: flex-start; margin: 16px 0;">
+  <div style="flex: 1;">
+    <p>Natural physical traces left by previous users convey actionable meaning without deliberate design. A worn dirt trail across a lawn signifies the optimal human route.</p>
+    <p>Shrewd architects observe these accidental signifiers before paving sidewalks, letting genuine human behavior guide the final design.</p>
+  </div>
+  <div style="width: 250px; flex-shrink: 0;">
+    <img src="assets/desire-path.jpg" alt="Desire Path" style="border-radius: 6px; width: 100%;">
+    <p style="font-size: 0.8em; opacity: 0.7; margin-top: 4px; text-align: center;"><em>Desire path: footprints leave physical traces signaling optimal path.</em></p>
+  </div>
+</div>
 
 ---
 
@@ -126,11 +170,29 @@ Natural physical traces left by previous users convey actionable meaning without
 └─────────────────────────────────┴─────────────────────────────────┘
 ```
 
-### Strong Signifier in Architecture: The Push Plate
-A flat brass plate can only be pushed—it cannot be grasped or pulled. The physical geometry itself serves as an unambiguous signifier:
+### Strong Signifier: The Push Plate
 
-![Door Push Plate](assets/door-push-plate.jpg)
-*> High-relief brass push plate: provides a clear tactile and spatial signifier that eliminates the Gulf of Execution without requiring words.*
+<div style="display: flex; gap: 24px; align-items: flex-start; margin: 16px 0;">
+  <div style="flex: 1;">
+    <p>A flat brass plate can only be pushed—it physically cannot be grasped or pulled. The physical geometry itself serves as an unambiguous strong signifier that eliminates the Gulf of Execution without words.</p>
+  </div>
+  <div style="width: 240px; flex-shrink: 0;">
+    <img src="assets/door-push-plate.jpg" alt="Door Push Plate" style="border-radius: 6px; width: 100%;">
+    <p style="font-size: 0.8em; opacity: 0.7; margin-top: 4px; text-align: center;"><em>Flat plate: geometry physically permits only pushing.</em></p>
+  </div>
+</div>
+
+### Weak Signifier: The Confusing "Push & Pull" Norman Door
+
+<div style="display: flex; gap: 24px; align-items: flex-start; margin: 16px 0;">
+  <div style="flex: 1;">
+    <p>When door hardware gives ambiguous signals, owners resort to printed signs. In extreme design failures, doors end up with contradictory "PUSH" and "PULL" labels pasted on the exact same door handle, leaving users bewildered.</p>
+  </div>
+  <div style="width: 240px; flex-shrink: 0;">
+    <img src="assets/door-push-pull-sign.jpg" alt="Confusing Push and Pull Signs" style="border-radius: 6px; width: 100%;">
+    <p style="font-size: 0.8em; opacity: 0.7; margin-top: 4px; text-align: center;"><em>The classic Norman door breakdown: contradictory text labels.</em></p>
+  </div>
+</div>
 
 ---
 
