@@ -123,6 +123,33 @@ Engineers frequently build forms and asynchronous workflows with broken feedback
 - **The Optimistic UI Remedy:** Instantly render the expected success state (<100ms) while the background network request resolves, reverting gracefully only if a server error occurs.
 - Designing feedback means treating **state visibility** as a first-class architectural requirement, not a cosmetic after-thought.
 
+### Case Study: Defending Working Memory with In-Situ Feedback (DoubleTake)
+
+<div style="display: flex; gap: 24px; align-items: flex-start; margin: 20px 0;">
+  <!-- Left: Analytical Narrative -->
+  <div style="flex: 1.2;">
+    <p style="font-size: 0.75em; text-transform: uppercase; letter-spacing: 1.5px; opacity: 0.6; margin-bottom: 4px;">
+      REAL-WORLD SOFTWARE CASE · IN-SITU FEEDBACK
+    </p>
+    <h4 style="margin-top: 0;">Preserving Cognitive Flow via Cursor-Anchored Latency Reduction</h4>
+    <p>Translation is among the highest-frequency micro-tasks in modern software development and research, yet standard desktop tools introduce catastrophic cognitive friction:</p>
+    <ul>
+      <li><strong>Viewport Dislocation & Context Switching:</strong> Copying text, switching to a browser tab (<code>Alt+Tab</code>), navigating to a web translator, and pasting requires <strong>8–15 seconds</strong>. This blows past the <strong>10-second attention-loss threshold</strong>, flushing the engineer's working memory stack and derailing task flow.</li>
+      <li><strong>Commercial Noise vs. Calm Tech:</strong> Heavyweight commercial utilities (e.g., Youdao Translator) accumulate splash ads, document monetization popups, and broken hotkeys—violating Mark Weiser's principle of <em>Calm Technology</em>.</li>
+      <li><strong>The In-Situ Solution (<a href="https://github.com/SaidimM/DoubleTake">DoubleTake</a>):</strong> By mapping a global <code>Double-Ctrl</code> tap, translation results pop up directly beside the text cursor in <strong>&lt; 500ms</strong>.</li>
+      <li><strong>Motor Ergonomics:</strong> The <code>Ctrl</code> key acts as an anchor key at the keyboard corner. Tapping it twice requires zero finger contortion or hitbox searching, collapsing the action into a pure subconscious <strong>Behavioral motor schema</strong> that preserves train of thought.</li>
+    </ul>
+  </div>
+
+  <!-- Right: Visual Evidence & Argumentative Caption -->
+  <div style="flex: 0.8; max-width: 280px; flex-shrink: 0;">
+    <img src="assets/doubletake-demo.svg" alt="DoubleTake In-Situ Translation Demo" style="border-radius: 6px; width: 100%; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    <p style="font-size: 0.82em; line-height: 1.4; opacity: 0.75; margin-top: 6px; border-left: 2px solid currentColor; padding-left: 8px;">
+      <strong>DoubleTake In-Situ Architecture:</strong> Anchoring the translation dialogue directly to the text cursor eliminates viewport dislocation and keeps interaction latency within the &lt;1.0s flow-of-thought threshold.
+    </p>
+  </div>
+</div>
+
 ---
 
 ## Related concepts
