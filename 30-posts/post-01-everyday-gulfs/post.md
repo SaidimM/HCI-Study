@@ -34,6 +34,9 @@ Over the past decade, automotive designers set out to make vehicles aerodynamic 
 
 Aesthetically, it looks futuristic. Ergonomically, it created a massive breakdown in human-machine communication known as the **Gulf of Execution**.
 
+![Tesla Flush Door Handle](assets/tesla-flush-door-handle.jpg)
+*> High-tech "Norman Door": A flush aerodynamic handle with no signifiers indicating how or where to pivot.*
+
 ---
 
 ## What I Did: A Field Walkthrough with Norman's 7 Stages of Action

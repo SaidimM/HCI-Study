@@ -9,8 +9,6 @@ tags: [concept, week/01, norman, signifier, presentation]
 
 > *"Affordances define what actions are possible. Signifiers specify where the action should take place."* — Don Norman
 
-![[signifier-dimensions.svg]]
-
 ---
 
 ## 1. Definition (my own words, ≤ 3 sentences)
@@ -73,29 +71,14 @@ A signifier is any perceivable signal, mark, or physical trace that communicates
 └──────────────────┴──────────────────┴──────────────────┴───────────────┘
 ```
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; margin: 16px 0;">
+### Real-World Photo Examples
 
-<div style="border: 1px solid #3b82f6; border-radius: 8px; padding: 14px; background: rgba(59,130,246,0.05);">
-  <h4 style="margin: 0 0 8px 0; color: #60a5fa;">01 · WHAT is possible?</h4>
-  <p><strong>Trash Can Foot Pedal:</strong> The ribbed lever at floor level signifies that foot depression triggers lid opening, preserving sanitary hands.</p>
-</div>
-
-<div style="border: 1px solid #10b981; border-radius: 8px; padding: 14px; background: rgba(16,185,129,0.05);">
-  <h4 style="margin: 0 0 8px 0; color: #34d399;">02 · WHERE to act?</h4>
-  <p><strong>Toilet Dual-Flush Button:</strong> Recessed chrome crescents demarcate the exact physical touch target and mechanical water volume choice.</p>
-</div>
-
-<div style="border: 1px solid #f59e0b; border-radius: 8px; padding: 14px; background: rgba(245,158,11,0.05);">
-  <h4 style="margin: 0 0 8px 0; color: #fbbf24;">03 · HOW to do it?</h4>
-  <p><strong>BottomSheet Grabber:</strong> A horizontal oval pill signals vertical axis dragging, reinforced by introductory animated slide peek (Feedforward).</p>
-</div>
-
-<div style="border: 1px solid #ef4444; border-radius: 8px; padding: 14px; background: rgba(239,68,68,0.05);">
-  <h4 style="margin: 0 0 8px 0; color: #f87171;">04 · System STATE?</h4>
-  <p><strong>Badges & Kettle LEDs:</strong> Red counter pills or green glowing rings communicate the invisible background status of the system.</p>
-</div>
-
-</div>
+| Dimension | Question Answered | Real Physical Artifact |
+|---|---|---|
+| **01 · WHAT** | What action is possible? | **Trash Can Foot Pedal:** The ribbed lever at floor level signifies that foot depression triggers lid opening, preserving sanitary hands.<br><br>![Pedal Trash Can](assets/pedal-trash-can.jpg) |
+| **02 · WHERE** | Where should action take place? | **Toilet Dual-Flush Button:** Recessed chrome crescents demarcate the exact physical touch target and mechanical water volume choice.<br><br>![Dual Flush Buttons](assets/toilet-dual-flush-button.jpg) |
+| **03 · HOW** | How should it be performed? | **BottomSheet Grabber:** A horizontal oval pill bar signals vertical axis dragging, reinforced by an introductory animated slide peek (Feedforward). |
+| **04 · STATE** | What state is the system in? | **Badges & Status LEDs:** Red counter pills or green glowing rings communicate the invisible background status of the system. |
 
 ---
 
@@ -117,8 +100,11 @@ Signifiers do not only originate on a designer's canvas. They are split into two
       • Haptic buzz patterns            • Steam rising from kettle spout
 ```
 
-* **Deliberate:** Intentionally engineered by creators to communicate affordances.
-* **Accidental / Incidental:** Natural physical traces left by previous users or the environment. Shrewd designers observe accidental signifiers (e.g. desire paths) to discover genuine user intentions before laying paved paths.
+### Accidental Signifier in the Wild: The Desire Path
+Natural physical traces left by previous users convey actionable meaning without deliberate design. A worn dirt trail across a lawn signifies the optimal human route:
+
+![Desire Path](assets/desire-path.jpg)
+*> A "desire path" formed across grass: previous human footprints create a physical trace that signifies the fastest route to future pedestrians.*
 
 ---
 
@@ -139,6 +125,12 @@ Signifiers do not only originate on a designer's canvas. They are split into two
 │ memory; zero reading needed.    │ fails when rushed or dark.      │
 └─────────────────────────────────┴─────────────────────────────────┘
 ```
+
+### Strong Signifier in Architecture: The Push Plate
+A flat brass plate can only be pushed—it cannot be grasped or pulled. The physical geometry itself serves as an unambiguous signifier:
+
+![Door Push Plate](assets/door-push-plate.jpg)
+*> High-relief brass push plate: provides a clear tactile and spatial signifier that eliminates the Gulf of Execution without requiring words.*
 
 ---
 

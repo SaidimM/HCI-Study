@@ -21,6 +21,9 @@ tags: [homework, week/01, field-observation, gulfs]
 ### Context & Description
 Modern electric vehicles (most notably Tesla Model 3 and Model Y) replace traditional protruding mechanical door handles with aerodynamic flush handles. To open from the outside, the user must press the wide rear portion with their thumb to pivot the skinny front portion outwards, then grasp the lever with their fingers to pull the door open. On the interior, opening the door requires pressing an unmarked electronic button on the armrest rather than pulling a mechanical latch.
 
+![Tesla Flush Door Handle](assets/tesla-flush-door-handle.jpg)
+*> Flush aerodynamic door handle on vehicle exterior: creates a severe Gulf of Execution due to absent visual signifiers indicating the pivot direction.*
+
 ### User Goal
 Enter or exit the vehicle smoothly without confusion or physical hesitation.
 

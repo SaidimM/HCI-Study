@@ -9,8 +9,6 @@ tags: [concept, week/01, norman, mental-models, system-image]
 
 > *"The designer’s conceptual model must match the user’s conceptual model. But the designer never talks directly to the user—everything is communicated through the System Image."* — Don Norman
 
-![[conceptual-model-triad.svg]]
-
 ---
 
 ## 1. Definition (my own words, ≤ 3 sentences)
@@ -45,30 +43,30 @@ A **Conceptual Model** (or mental model) is an internal cognitive simulation of 
 
 ## 3. The Three Pillars of the Triad
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin: 16px 0;">
-
-<div style="border: 1px solid #8b5cf6; border-radius: 8px; padding: 14px; background: rgba(139,92,246,0.05);">
-  <h4 style="margin: 0 0 8px 0; color: #a78bfa;">1. The Design Model</h4>
-  <p>The creator's deep theoretical conception of the product: schemas, state machines, mechanical linkages, and logic. The designer knows *why* every piece exists and how they relate.</p>
-</div>
-
-<div style="border: 1px solid #38bdf8; border-radius: 8px; padding: 14px; background: rgba(56,189,248,0.05);">
-  <h4 style="margin: 0 0 8px 0; color: #7dd3fc;">2. The System Image</h4>
-  <p>The <strong>only physical reality</strong> that exists in the world. It includes the industrial body, screen layout, button signifiers, error dialogues, audible hums, and instructions.</p>
-</div>
-
-<div style="border: 1px solid #10b981; border-radius: 8px; padding: 14px; background: rgba(16,185,129,0.05);">
-  <h4 style="margin: 0 0 8px 0; color: #34d399;">3. The User's Model</h4>
-  <p>The internal simulation developed in the user's mind through perception and experimentation. It guides all planning, execution, and evaluation in the [[seven-stages-of-action]].</p>
-</div>
-
-</div>
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                       THE THREE CONCEPTUAL ROLES                       │
+├────────────────────┬───────────────────────────────────────────────────┤
+│ 1. DESIGN MODEL    │ The creator's conceptual model: system logic,     │
+│                    │ state machines, engineering architecture.         │
+├────────────────────┼───────────────────────────────────────────────────┤
+│ 2. SYSTEM IMAGE    │ The ONLY physical reality in the world: hardware  │
+│                    │ enclosure, screen UI, signifiers, sounds, docs.   │
+├────────────────────┼───────────────────────────────────────────────────┤
+│ 3. USER'S MODEL    │ The mental simulation built by the user from      │
+│                    │ interacting with the System Image & past habits.  │
+└────────────────────┴───────────────────────────────────────────────────┘
+```
 
 ---
 
 ## 4. Classic Case Studies: When the System Image Fails
 
 ### Case A: The Thermostat Fallacy (Valve Model vs. Binary Switch)
+
+![Honeywell Round Thermostat](assets/honeywell-round-thermostat.jpg)
+*> Classic Honeywell round rotary thermostat: the gradated dial and single knob encourage the false mental model of a continuous valve.*
+
 - **The User's Model (The Valve Fallacy):** When a room is freezing, the user turns the dial to 30°C (86°F), believing the heater will pump out hotter air faster—just like turning a water faucet wider releases more water.
 - **The Design Model (Binary Furnace Switch):** A thermostat is a binary bang-bang controller. The furnace is either 100% ON or 100% OFF. Setting it to 30°C does not accelerate warming; it only wastes fuel and overheats the house an hour later.
 - **Why the System Image Failed:** A single dial with gradated numbers suggests a continuous throttle (valve). The system image provided zero visibility into the binary furnace state.
