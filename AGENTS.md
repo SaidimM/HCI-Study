@@ -12,3 +12,10 @@ This workspace houses the student's HCI learning curriculum, lecture notes (Stan
   - Record lecture notes and raw thoughts in `20-notes/lectures/`.
   - Capture newsletter inspirations in `00-thoughts/post-ideas.md` and `30-posts/`.
 - **Weekly Goal Navigator:** Keep track of weekly targets in `10-data/course/weeks/` and `schedule.md`. Verify solid conceptual understanding before marking tasks done.
+
+## Editorial Layout & Aesthetic Standard
+- **The Editorial Magazine Standard:** All concept notes, homework analyses, and syntheses must adhere to [[editorial-style-guide|The Editorial Knowledge System]]:
+  - **Data-Ink Discipline (Edward Tufte):** Maximize data-ink ratio; avoid multi-color card backgrounds or decorative chartjunk. Use pure theme-adaptive monochrome TUI ASCII for architectures, timelines, and comparison matrices.
+  - **Side-by-Side Co-Location (Sweller / Bringhurst):** For real-world artifacts, use the 2-column flexbox container (narrative argument on left, image with argumentative caption on right) to eliminate split-attention and maintain optimal line measure (45–70 chars).
+  - **Captions as Arguments:** Captions must never be passive labels; they must explain how the artifact proves or violates the theoretical model.
+
