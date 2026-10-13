@@ -9,8 +9,6 @@ tags: [concept, week/01, norman, feedback, latency]
 
 > *"Feedback—sending back information about what action has been done and what result has been accomplished—is a well-known concept in the science of control and information theory."* — Don Norman
 
-![[feedback-latency.svg]]
-
 ---
 
 ## 1. Definition (my own words, ≤ 3 sentences)
@@ -18,18 +16,26 @@ Feedback is the immediate sensory return of information to the user confirming t
 
 ---
 
-## 2. Quantitative Cognitive Latency Limits
+## 2. Quantitative Cognitive Latency Limits (X-Y Model)
 
-In human-computer interaction, "immediate" is strictly quantified by neurobiology and attention spans (Robert Miller 1968, Card/Moran/Newell 1983, Jakob Nielsen):
+In human-computer interaction, "immediate" is strictly quantified by neurobiology and human attention spans (Robert Miller 1968, Card/Moran/Newell 1983, Jakob Nielsen).
 
 ```
-0 ms ───────[ 100 ms ]─────────────────[ 1.0 s ]───────────────────────[ 10.0 s ]───► ∞
-                │                         │                                │
-         VISCERAL / DIRECT         BEHAVIORAL FLOW                  ATTENTION LOSS
-       Immediate causality;       Noticeable pause, but            Mind wanders; user
-       feels instantaneous        train of thought is              switches tasks.
-       (haptic click, keydown,    unbroken (page load,             Progress indicator
-        direct slider drag)        simple search query)            or notify mandatory!
+Sense of Direct Causality & Attention
+  ▲
+  │
+  │ 100% ──────┐ [0.1s: Direct Manipulation]
+  │            │ • Feels instantaneous (visceral reaction)
+  │            │ • Keypress click, dragging slider, physical switch
+  │  70%       └─────────────┐ [1.0s: Unbroken Flow of Thought]
+  │                          │ • Noticeable delay, but mental focus holds
+  │                          │ • Page navigation, simple database query
+  │  20%                     └───────────────────────────► [10.0s+: Attention Lost]
+  │                                                        • User switches tasks or checks phone
+  │                                                        • Progress bar or notification required
+  0 ───────────┬─────────────┬─────────────┬─────────────►
+             0.1 s         1.0 s        10.0 s            Response Time (Log Scale)
+           (100 ms)
 ```
 
 ```
@@ -71,29 +77,23 @@ In human-computer interaction, "immediate" is strictly quantified by neurobiolog
 
 ## 4. The 4 Cardinal Laws of Good Feedback
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 16px 0;">
-
-<div style="border: 1px solid #38bdf8; border-radius: 8px; padding: 14px; background: rgba(56,189,248,0.05);">
-  <h4 style="margin: 0 0 8px 0; color: #7dd3fc;">1. Immediate (&lt;100ms)</h4>
-  <p>Even if backend execution takes 5 seconds, sensory acknowledgment of the touch/click must fire within 100ms so the user knows the button registered.</p>
-</div>
-
-<div style="border: 1px solid #10b981; border-radius: 8px; padding: 14px; background: rgba(16,185,129,0.05);">
-  <h4 style="margin: 0 0 8px 0; color: #34d399;">2. Informative</h4>
-  <p>Feedback must explain <em>what occurred</em> in human terms. A flashing red LED or cryptic code (<code>Error 0x80070005</code>) provides zero diagnostic value.</p>
-</div>
-
-<div style="border: 1px solid #f59e0b; border-radius: 8px; padding: 14px; background: rgba(245,158,11,0.05);">
-  <h4 style="margin: 0 0 8px 0; color: #fbbf24;">3. Proportionate</h4>
-  <p>Minor, routine actions require subtle sensory cues (quiet click). Destructive or rare actions require salient, unignorable feedback (modal confirmation).</p>
-</div>
-
-<div style="border: 1px solid #ef4444; border-radius: 8px; padding: 14px; background: rgba(239,68,68,0.05);">
-  <h4 style="margin: 0 0 8px 0; color: #f87171;">4. Restrained</h4>
-  <p>Avoid excessive noise. Over-announcing every trivial system event leads directly to human habituation and dangerous <strong>Alarm Fatigue</strong>.</p>
-</div>
-
-</div>
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                   THE 4 CARDINAL LAWS OF GOOD FEEDBACK                 │
+├────────────────────┬───────────────────────────────────────────────────┤
+│ 1. IMMEDIATE       │ Acknowledge touch/click within <100ms, even if    │
+│    (< 100 ms)      │ backend processing takes seconds.                 │
+├────────────────────┼───────────────────────────────────────────────────┤
+│ 2. INFORMATIVE     │ Explain *what occurred* in human terms. Never use │
+│                    │ silent failures or cryptic hexadecimal codes.     │
+├────────────────────┼───────────────────────────────────────────────────┤
+│ 3. PROPORTIONATE   │ Minor actions = subtle sensory cues (soft click). │
+│                    │ Destructive actions = salient confirmation.       │
+├────────────────────┼───────────────────────────────────────────────────┤
+│ 4. RESTRAINED      │ Suppress noise. Over-signaling trivial events     │
+│                    │ causes habituation and dangerous Alarm Fatigue.   │
+└────────────────────┴───────────────────────────────────────────────────┘
+```
 
 ---
 
