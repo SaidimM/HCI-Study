@@ -136,19 +136,66 @@ Figma - FigJam has the mature solution for this
 
 
 ## Key Ideas from Prof. James Landay's Lecture
-- **What is HCI?**: **Design thinking user experience**
-- **The Double Diamond / Iterative Design Process** (Needfinding → Prototyping → Evaluation):
-- **Why engineering intuition fails without user observation**: User Centered Design
+
+### 1. What is HCI?
+Human-Computer Interaction is the discipline that balances **Technology** (what is technically feasible) with **Design & Psychology** (how human beings perceive, think, and act). It is fundamentally distinct from software engineering: software engineering asks *"Can we build this reliably and efficiently?"*, while HCI asks *"Does this solve a genuine human need in a way that respects human cognitive and physical limits?"*
+
+### 2. The Double Diamond Design Process
+Prof. Landay emphasizes that design is not a single linear sprint—it is a continuous cycle of **Divergent Thinking** (generating many possibilities) and **Convergent Thinking** (narrowing down to the best solution):
+
+```
+       [ PROBLEM SPACE ]                         [ SOLUTION SPACE ]
+     Diverge          Converge                 Diverge          Converge
+   ┌─────────┐      ┌─────────┐              ┌─────────┐      ┌─────────┐
+  ╱           ╲    ╱           ╲            ╱           ╲    ╱           ╲
+ ╱  NEED-      ╲  ╱    POINT    ╲          ╱  PROTOTYPE  ╲  ╱  EVALUATION ╲
+╱   FINDING     ╲╱    OF VIEW    ╲        ╱   IDEAS       ╲╱   & TESTING   ╲
+╲   (Discover)  ╱╲   (Define)    ╱        ╲   (Develop)   ╱╲   (Deliver)   ╱
+ ╲             ╱  ╲             ╱          ╲             ╱  ╲             ╱
+  ╲           ╱    ╲           ╱            ╲           ╱    ╲           ╱
+   └─────────┘      └─────────┘              └─────────┘      └─────────┘
+        ▲                ▲                        ▲                ▲
+        └────────────────┴─── ITERATIVE LOOP ─────┴────────────────┘
+                             Repeat: Design ──► Prototype ──► Evaluate
+```
+
+1. **Discover (Needfinding):** Observe real people in their actual context. Uncover unarticulated pain points rather than asking users what features they want.
+2. **Define (POV & Insights):** Frame the root-cause problem from a specific human perspective.
+3. **Develop (Ideate & Prototype):** Build low-fidelity mockups (paper prototypes, wizard-of-oz, interactive wireframes) rapidly to test core assumptions at near-zero cost.
+4. **Deliver (Evaluate & Test):** Test with real participants, observe breakdown points across Norman's action cycle, and iterate.
+
+### 3. The Golden Law: "You Are Not Your User!"
+Why does engineering intuition consistently fail when designing user interfaces?
+- **The Curse of Knowledge:** Engineers know the internal database schemas, state machines, and edge cases. They assume that what is logical to the system is intuitive to human psychology.
+- **The Egocentric Bias:** Designers project their own high technical literacy, powerful hardware, and patience onto the user.
+- **The Rule:** Real users are distracted, multi-tasking, fatigued, and non-technical. If you do not conduct empirical field observations (like our P1 car door test), your software will inevitably produce massive Gulfs of Execution and Evaluation.
+
+---
 
 ## Feedback Cycles & The 7 Stages of Action (Norman)
-- **Gulf of Execution** (How hard is it to figure out what to do?):
-- **Gulf of Evaluation** (How hard is it to tell what state the system is in?):
+- **[[gulf-of-execution]]:** The distance between human intention and interface operation. Narrowed through visible [[signifier|signifiers]], natural mappings, and physical constraints.
+- **[[gulf-of-evaluation]]:** The distance between machine state and human sensory perception. Narrowed through immediate (<100ms), informative, and proportionate [[feedback]].
 
-## New Terms → Concept Notes to Create
-- [[affordance]] · [[signifier]] · [[feedback]] · [[gulf-of-execution]] · [[gulf-of-evaluation]] · [[seven-stages-of-action]]
+---
+
+## New Terms → Concept Notes Created
+- [[affordance]] · [[signifier]] · [[feedback]] · [[gulf-of-execution]] · [[gulf-of-evaluation]] · [[seven-stages-of-action]] · [[three-levels-of-processing]] · [[slips-vs-mistakes]] · [[Conceptual Model, System Image and Real usage]]
+
+---
 
 ## How this applies to software I build
-- 
+
+### 1. Defending Working Memory with In-Situ Feedback (DoubleTake)
+My experience building [DoubleTake](https://github.com/SaidimM/DoubleTake) directly embodies Landay's principles:
+- Standard desktop tools fail because they force a 10-second context switch (Alt+Tab to browser, copy/paste), flushing human working memory.
+- By providing **in-situ feedback** right at the cursor via a subconscious `Double-Ctrl` motor trigger, DoubleTake keeps translation latency under 500ms, maintaining the user's flow of thought.
+
+### 2. Generative AI as "Living Sketches" vs. Static HTML Prompts
+As noted in my lecture reactions above:
+- Today's AI tools force users through a huge Gulf of Execution: typing text prompts into a chatbox, which dumps raw static code or SVGs.
+- The future of AI UX is **Living Interactive Sketches**—where the agent's internal reasoning is displayed as a dynamic, interactive canvas that users can directly manipulate, drag, and steer in real-time, preserving direct manipulation (Weiser & Engelbart).
+
+---
 
 ## Questions / Confusions (→ [[questions]])
-- 
+- *How can we design living canvas interfaces for autonomous AI agents that make continuous reasoning states observable without overwhelming the user with feedback fatigue?*
