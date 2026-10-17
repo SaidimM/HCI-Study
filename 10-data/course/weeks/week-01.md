@@ -30,7 +30,7 @@ tags: [course, week/01]
 
 | Day | Time | Job                                                                                     | Output (where it goes)                                |
 | --- | ---- | --------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| Mon | 2 h  | Watch lecture, take notes                                                               | `20-notes/lectures/week-01.md`                        |
+| Mon | 2 h  | Watch lecture, take notes                                                               | `20-notes/lectures/cs147-01-intro-to-hci.md`          |
 | Tue | 2 h  | Textbook reading → write concept notes                                                  | `20-notes/concepts/*.md`                              |
 | Wed | 2 h  | Read paper of the week                                                                  | `20-notes/papers/<author-year-title>.md`              |
 | Thu | 2 h  | **Homework kickoff:** Read brief; pick 3 interfaces; plan where/when to observe someone | `20-notes/homework/hw01-everyday-gulfs/submission.md` |

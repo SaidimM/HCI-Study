@@ -5,7 +5,7 @@ source: "Stanford CS147: Intro to HCI & The Design Process (Prof. James Landay)"
 tags: [lecture, week/01]
 ---
 
-# Lecture Notes — Week 1: Stanford CS147 Intro to HCI
+# Lecture Notes — CS147 Lecture 1: Introduction to HCI & The Design Process
 
 [01-introduction.pdf](https://hci.stanford.edu/courses/cs147/2025/au/lectures/01-introduction.pdf)
 ## Studio Owners
