@@ -65,6 +65,10 @@ Bimanual interaction is an input design paradigm that leverages both hands coope
 └──────────────────────────────┴──────────────────────────────────────────────┘
 ```
 
+![Bimanual 3D Volumetric Slicing Architecture](assets/bimanual-volumetric-slicing.png)
+*> Figure 1: Asymmetric Bimanual Division of Labor (Guiard 1987) — The non-dominant (left) hand continuously scrubs and proprioceptively holds the volumetric Z-depth slice, freeing the dominant (right) hand to execute sub-millimeter measurements on the 2D cross-section.*
+
+
 ### The Slicing Breakdown
 1. **The Single-Hand Bottleneck:** When forced to use only one hand on a 2D trackpad or mouse, navigating 3D data requires **Time-Multiplexed Modal Swapping**:
    - Step 1: Use mouse to click a depth slider and drag to $Z = 45\text{ mm}$.
