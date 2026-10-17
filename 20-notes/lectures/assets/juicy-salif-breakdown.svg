@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" width="100%" height="100%" style="background-color: #0b0f19; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="35%" stop-color="#f1f5f9"/>
+      <stop offset="70%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="legGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    <linearGradient id="lemonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="80%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+    <linearGradient id="lemonInside" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#facc15"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    /* Animations */
+    .lemon-actor {
+      animation: squeezeMotion 3s ease-in-out infinite;
+      transform-origin: 440px 110px;
+    }
+    @keyframes squeezeMotion {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      30% { transform: translateY(16px) rotate(-6deg); }
+      60% { transform: translateY(18px) rotate(6deg); }
+      80% { transform: translateY(4px) rotate(0deg); }
+    }
+
+    .drop-center-1 {
+      animation: dripCenter 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) infinite;
+    }
+    .drop-center-2 {
+      animation: dripCenter 1.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) infinite 0.75s;
+    }
+    @keyframes dripCenter {
+      0% { transform: translate(440px, 290px) scale(0.6); opacity: 0; }
+      20% { opacity: 1; }
+      80% { transform: translate(440px, 450px) scale(1); opacity: 1; }
+      100% { transform: translate(440px, 455px) scale(1.3); opacity: 0; }
+    }
+
+    .drop-leg-left {
+      animation: dripLegL 2.2s ease-in infinite 0.4s;
+    }
+    @keyframes dripLegL {
+      0% { transform: translate(410px, 260px); opacity: 0; }
+      15% { opacity: 1; }
+      60% { transform: translate(320px, 390px); opacity: 1; }
+      90% { transform: translate(250px, 495px); opacity: 1; }
+      100% { transform: translate(248px, 502px) scale(1.4); opacity: 0; }
+    }
+
+    .drop-leg-right {
+      animation: dripLegR 2.2s ease-in infinite 1.1s;
+    }
+    @keyframes dripLegR {
+      0% { transform: translate(470px, 260px); opacity: 0; }
+      15% { opacity: 1; }
+      60% { transform: translate(560px, 390px); opacity: 1; }
+      90% { transform: translate(630px, 495px); opacity: 1; }
+      100% { transform: translate(632px, 502px) scale(1.4); opacity: 0; }
+    }
+
+    .splat-left {
+      animation: splashRipples 2.2s ease-out infinite 0.4s;
+      transform-origin: 248px 502px;
+    }
+    .splat-right {
+      animation: splashRipples 2.2s ease-out infinite 1.1s;
+      transform-origin: 632px 502px;
+    }
+    @keyframes splashRipples {
+      0%, 85% { opacity: 0; transform: scale(0.1); }
+      90% { opacity: 1; transform: scale(1); }
+      100% { opacity: 0; transform: scale(2.2); }
+    }
+
+    .pip-fall {
+      animation: pipMotion 3s ease-in infinite 1.2s;
+    }
+    @keyframes pipMotion {
+      0% { transform: translate(442px, 280px); opacity: 0; }
+      20% { opacity: 1; }
+      80% { transform: translate(438px, 460px); opacity: 1; }
+      100% { transform: translate(438px, 470px); opacity: 0; }
+    }
+
+    .alert-pulse {
+      animation: pulseAlert 2s infinite ease-in-out;
+    }
+    @keyframes pulseAlert {
+      0%, 100% { opacity: 0.8; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.04); }
+    }
+
+    .wobble-arrow {
+      animation: wobbleMotion 3s ease-in-out infinite;
+      transform-origin: 440px 180px;
+    }
+    @keyframes wobbleMotion {
+      0%, 100% { transform: rotate(0deg); }
+      30% { transform: rotate(-3deg); }
+      60% { transform: rotate(3deg); }
+    }
+  </style>
+
+  <!-- Title & Header Banner -->
+  <rect x="25" y="20" width="830" height="56" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+  <text x="45" y="45" fill="#f8fafc" font-size="17" font-weight="700">Philippe Starck's "Juicy Salif" (Alessi, 1990) — Usability Breakdown in Action</text>
+  <text x="45" y="64" fill="#94a3b8" font-size="12">Norman's Three Levels: Visceral &amp; Reflective (10/10) vs. Behavioral Usability (1/10)</text>
+
+  <!-- Countertop surface -->
+  <line x1="160" y1="500" x2="720" y2="500" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <text x="440" y="525" fill="#64748b" font-size="11" text-anchor="middle" letter-spacing="1.5">KITCHEN COUNTERTOP SURFACE</text>
+
+  <!-- Splatter zones on countertop -->
+  <circle cx="248" cy="502" r="16" fill="none" stroke="#facc15" stroke-width="1.5" class="splat-left"/>
+  <ellipse cx="248" cy="502" rx="24" ry="5" fill="#facc15" opacity="0.35"/>
+  <circle cx="236" cy="500" r="3" fill="#facc15" opacity="0.7"/>
+  <circle cx="258" cy="504" r="2.5" fill="#facc15" opacity="0.7"/>
+  <circle cx="245" cy="506" r="4" fill="#facc15" opacity="0.8"/>
+
+  <circle cx="632" cy="502" r="16" fill="none" stroke="#facc15" stroke-width="1.5" class="splat-right"/>
+  <ellipse cx="632" cy="502" rx="24" ry="5" fill="#facc15" opacity="0.35"/>
+  <circle cx="620" cy="501" r="3" fill="#facc15" opacity="0.7"/>
+  <circle cx="644" cy="503" r="2.5" fill="#facc15" opacity="0.7"/>
+  <circle cx="634" cy="506" r="4" fill="#facc15" opacity="0.8"/>
+
+  <!-- Squeezer Structure Group (with slight wobble under torque) -->
+  <g class="wobble-arrow">
+    <!-- Center Collector Glass placed underneath -->
+    <path d="M 405 420 L 415 498 Q 416 500 420 500 L 460 500 Q 464 500 465 498 L 475 420 Z" fill="rgba(255,255,255,0.06)" stroke="#94a3b8" stroke-width="2"/>
+    <ellipse cx="440" cy="420" rx="35" ry="6" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+    <!-- Juice collected in glass -->
+    <path d="M 416 480 L 418 498 L 462 498 L 464 480 Q 440 484 416 480 Z" fill="#eab308" opacity="0.7"/>
+    <ellipse cx="440" cy="480" rx="24" ry="4" fill="#fef08a" opacity="0.8"/>
+
+    <!-- Juicy Salif Legs -->
+    <!-- Left Leg -->
+    <path d="M 425 240 Q 360 330 250 500 Q 248 502 245 498 Q 352 320 420 230 Z" fill="url(#legGrad)"/>
+    <!-- Right Leg -->
+    <path d="M 455 240 Q 520 330 630 500 Q 632 502 635 498 Q 528 320 460 230 Z" fill="url(#legGrad)"/>
+    <!-- Rear / Third Leg -->
+    <path d="M 440 235 Q 440 330 440 405" stroke="#475569" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Central Fluted Teardrop Body -->
+    <path d="M 440 135 
+             C 410 160, 400 210, 420 270 
+             C 430 290, 440 300, 440 300 
+             C 440 300, 450 290, 460 270 
+             C 480 210, 470 160, 440 135 Z" 
+          fill="url(#bodyGrad)" stroke="#64748b" stroke-width="1.5"/>
+    
+    <!-- Ribs / Ridges on the squeezer -->
+    <path d="M 440 135 Q 430 210 440 300" stroke="#64748b" stroke-width="2" fill="none"/>
+    <path d="M 440 135 Q 415 210 428 275" stroke="#94a3b8" stroke-width="1.5" fill="none"/>
+    <path d="M 440 135 Q 465 210 452 275" stroke="#64748b" stroke-width="1.5" fill="none"/>
+    <path d="M 440 135 Q 403 195 413 250" stroke="#cbd5e1" stroke-width="1.2" fill="none"/>
+    <path d="M 440 135 Q 477 195 467 250" stroke="#475569" stroke-width="1.2" fill="none"/>
+  </g>
+
+  <!-- Squeezed Lemon Half (Animated) -->
+  <g class="lemon-actor">
+    <!-- Lemon Outer Dome -->
+    <path d="M 390 125 C 390 70, 490 70, 490 125 Z" fill="url(#lemonGrad)" stroke="#ca8a04" stroke-width="2"/>
+    <!-- Lemon Cut Face -->
+    <ellipse cx="440" cy="125" rx="50" ry="16" fill="url(#lemonInside)" stroke="#eab308" stroke-width="2"/>
+    <!-- Lemon Segments & Pulp Rings -->
+    <ellipse cx="440" cy="125" rx="42" ry="12" fill="none" stroke="#facc15" stroke-dasharray="8 3" stroke-width="2"/>
+    <circle cx="440" cy="125" r="4" fill="#ffffff" opacity="0.8"/>
+    <!-- Squeeze Force Arrows -->
+    <path d="M 440 45 L 440 70 M 435 63 L 440 72 L 445 63" stroke="#ef4444" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="440" y="40" fill="#ef4444" font-size="11" font-weight="bold" text-anchor="middle">DOWNWARD PRESSURE &amp; TWIST</text>
+  </g>
+
+  <!-- Flowing Juice Drops (Center into Cup) -->
+  <g class="drop-center-1">
+    <ellipse cx="0" cy="0" rx="3.5" ry="5.5" fill="#facc15" filter="url(#glow)"/>
+  </g>
+  <g class="drop-center-2">
+    <ellipse cx="0" cy="0" rx="3" ry="5" fill="#fde047"/>
+  </g>
+
+  <!-- Pip/Seed Falling Straight into Glass (No Sieve) -->
+  <g class="pip-fall">
+    <path d="M 0 0 C -2 -3, -2 -6, 0 -8 C 2 -6, 2 -3, 0 0 Z" fill="#fef08a" stroke="#ca8a04" stroke-width="1"/>
+  </g>
+
+  <!-- Spilling Drops along the Legs (The Flaw!) -->
+  <g class="drop-leg-left">
+    <ellipse cx="0" cy="0" rx="3" ry="5" fill="#facc15" filter="url(#glow)"/>
+  </g>
+  <g class="drop-leg-right">
+    <ellipse cx="0" cy="0" rx="3" ry="5" fill="#facc15" filter="url(#glow)"/>
+  </g>
+
+  <!-- USABILITY ANNOTATIONS (Callout Cards) -->
+
+  <!-- Left Callout: Splatter & Mess -->
+  <g class="alert-pulse" transform="translate(40, 360)">
+    <rect width="210" height="90" rx="8" fill="#1e1b4b" stroke="#ef4444" stroke-width="1.8"/>
+    <circle cx="20" cy="22" r="10" fill="#ef4444"/>
+    <text x="20" y="27" fill="#fff" font-size="13" font-weight="bold" text-anchor="middle">!</text>
+    <text x="38" y="26" fill="#f87171" font-size="12" font-weight="bold">Countertop Splatter Zone</text>
+    <text x="14" y="48" fill="#cbd5e1" font-size="11">Juice channels down the splayed</text>
+    <text x="14" y="64" fill="#cbd5e1" font-size="11">spider legs and drips <tspan fill="#facc15" font-weight="bold">directly</tspan></text>
+    <text x="14" y="80" fill="#cbd5e1" font-size="11">onto table, missing the cup!</text>
+    <!-- Connector line -->
+    <path d="M 210 45 Q 230 45 245 490" fill="none" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- Right Callout: No Seed Sieve & High Center of Gravity -->
+  <g class="alert-pulse" transform="translate(630, 240)">
+    <rect width="215" height="105" rx="8" fill="#1e1b4b" stroke="#ef4444" stroke-width="1.8"/>
+    <circle cx="20" cy="22" r="10" fill="#ef4444"/>
+    <text x="20" y="27" fill="#fff" font-size="13" font-weight="bold" text-anchor="middle">!</text>
+    <text x="38" y="26" fill="#f87171" font-size="12" font-weight="bold">No Pip/Seed Sieve</text>
+    <text x="14" y="48" fill="#cbd5e1" font-size="11">Zero filter: lemon seeds drop</text>
+    <text x="14" y="64" fill="#cbd5e1" font-size="11">straight into drinking glass.</text>
+    <text x="14" y="82" fill="#fca5a5" font-size="11" font-weight="bold">High Center of Gravity:</text>
+    <text x="14" y="98" fill="#cbd5e1" font-size="11">Downforce causes tripod wobble.</text>
+    <!-- Connector line -->
+    <path d="M 0 50 Q -110 50 -150 435" fill="none" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- Starck's Infamous Confession Bottom Banner -->
+  <rect x="120" y="550" width="640" height="48" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2"/>
+  <text x="440" y="570" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">
+    PHILIPPE STARCK: "It is not meant to squeeze lemons; it is meant to start conversations."
+  </text>
+  <text x="440" y="588" fill="#94a3b8" font-size="11" text-anchor="middle">
+    HCI Lesson: Aesthetic / Reflective sculpture masquerading as a culinary tool. Behavioral design = 1/10.
+  </text>
+</svg>
