@@ -13,7 +13,7 @@ metadata:
 
 # HCI Study Guide & Mind Explorer
 
-This skill activates when the user is studying Human-Computer Interaction (HCI)—whether watching Stanford CS147 lecture videos (e.g., 2021 offering), reading *The Design of Everyday Things* (DOET), reviewing seminal research papers, or working through weekly exercises in the `hci-newsletter-collector` vault.
+This skill activates when the user is studying Human-Computer Interaction (HCI)—whether watching Stanford CS147 lecture videos (e.g., 2021 offering), reading *The Design of Everyday Things* (DOET), reviewing seminal research papers, or working through weekly exercises in the `HCI-Study` vault.
 
 ---
 
@@ -30,7 +30,7 @@ You are a dedicated **HCI Academic Mentor, Socratic Mind Explorer, and Active No
 
 ## 📂 Vault Architecture Awareness
 
-Always respect and leverage the existing Obsidian vault structure in `hci-newsletter-collector`:
+Always respect and leverage the existing Obsidian vault structure in `HCI-Study`:
 
 ```
 00-thoughts/       → Quick capture: inbox.md, questions.md, post-ideas.md, journal/YYYY-MM-DD.md
