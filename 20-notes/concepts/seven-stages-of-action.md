@@ -7,32 +7,36 @@ tags: [concept, week/01, norman]
 
 # Seven Stages of Action
 
+*Every action is a loop: form a goal, act on the world, then check what happened.*
+
+> [!abstract] At a glance
+> **What:** Goal, then three stages of execution, then three stages of evaluation.
+> **Why:** It lets you pinpoint exactly where an interaction breaks down.
+> **See it:** Heating food in a microwave, stage by stage.
+
 ## Definition (my own words, ≤ 3 sentences)
 Human action is a continuous feedback loop that starts with a high-level goal, executes across physical reality, and evaluates the outcome against expectations. The cycle consists of one goal stage, three stages of execution (Plan, Specify, Perform), and three stages of evaluation (Perceive, Interpret, Compare). When we are novice or encountering failure, these stages operate consciously and reflectively; when fluent, execution and evaluation slip into fast, automatic subconscious routines.
 
 ```
-                  ┌───────── [ GOAL ] ─────────┐
-                  │   Reflective / Conscious   │
-                  ▼                            │
-        [ PLAN (Intention) ]                   │
-       Behavioral / Conscious                  │
-                  ▼                            ▲
-             [ SPECIFY ]                  [ COMPARE ]
-       Behavioral / Subconscious     Reflective / Conscious
-                  ▼                            ▲
-             [ PERFORM ]                  [ INTERPRET ]
-        Visceral / Motor Act         Reflective / Subconscious
-                  ▼                            ▲
-       ══════════════════════════════════════════════════════════
-         GULF OF EXECUTION               GULF OF EVALUATION
-       ══════════════════════════════════════════════════════════
-                  ▼                            │
-                  └──────► [ WORLD / STATE ] ──┘
-                             (Physical Object)
-                                     │
-                                [ PERCEIVE ]
-                              Visceral Sensory
+                       [ GOAL ]                 Reflective
+                           │
+   EXECUTION         [ PLAN ]                   Reflective
+                     [ SPECIFY ]                Behavioral
+                     [ PERFORM ]                Visceral
+                           │
+        ═════════ GULF OF EXECUTION ═════════
+                  [ WORLD / SYSTEM STATE ]
+        ═════════ GULF OF EVALUATION ═════════
+                           │
+   EVALUATION        [ PERCEIVE ]               Visceral
+                     [ INTERPRET ]              Behavioral
+                     [ COMPARE ]                Reflective
+                           │
+                  goal met?  ──►  back to GOAL
 ```
+
+> [!warning] Correction · 2026-10-18
+> The earlier table and diagram disagreed with each other and, as far as I can tell, with Norman's mapping of stages to levels: **Reflective** = goal, plan, compare; **Behavioral** = specify, interpret; **Visceral** = perform, perceive. Levels were corrected below. **Verify against DOET (revised ed., Ch. 2) before citing.**
 
 ---
 
@@ -41,11 +45,11 @@ Human action is a continuous feedback loop that starts with a high-level goal, e
 | Stage | Level of Processing | Mindset | Microwave Example |
 |---|---|---|---|
 | **1. Goal** | Reflective | Subconscious → Conscious | *"I feel hungry and need to satisfy my hunger."* |
-| **2. Plan (Intention)** | Behavioral | Conscious | *"I will warm up some food to eat."* |
+| **2. Plan (Intention)** | Reflective | Conscious | *"I will warm up some food to eat."* |
 | **3. Specify** | Behavioral | Subconscious / Conscious | *"I will use the microwave in the kitchen for 2 minutes."* |
 | **4. Perform** | Visceral (Motor) | Subconscious (if fluent) | Open door, insert bowl, shut door, turn the timer knob. |
 | **5. Perceive** | Visceral (Sensory) | Subconscious | Look at the microwave: the interior light is OFF, no hum sound. |
-| **6. Interpret** | Reflective | Subconscious → Conscious | *"The microwave isn't running; maybe the wall plug is loose."* |
+| **6. Interpret** | Behavioral | Subconscious → Conscious | *"The microwave isn't running; maybe the wall plug is loose."* |
 | **7. Compare** | Reflective | Conscious | *"The food is still ice cold, and I'm still hungry. Goal not met."* |
 
 ---

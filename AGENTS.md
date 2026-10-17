@@ -19,3 +19,8 @@ This workspace houses the student's HCI learning curriculum, lecture notes (Stan
   - **Side-by-Side Co-Location (Sweller / Bringhurst):** For real-world artifacts, use the 2-column flexbox container (narrative argument on left, image with argumentative caption on right) to eliminate split-attention and maintain optimal line measure (45–70 chars).
   - **Captions as Arguments:** Captions must never be passive labels; they must explain how the artifact proves or violates the theoretical model.
 
+
+## Visual Design Branch (Layout · Color · Typography · Aesthetics)
+- Part of the HCI curriculum (long-term goal: HCI PhD on aesthetics/emotion). Roadmap: `10-data/visual-design/curriculum.md`.
+- Visual concept notes go in `20-notes/concepts/` (template: `90-templates/visual-concept-note.md`); analyses of specific magazines/sites go in `20-notes/teardowns/` (template: `90-templates/teardown.md`).
+- Use the `visual-design-study-guide` skill. Notes must be a pleasure to re-read: follow the Editorial Knowledge System and always include *Editor's intention* and *Why it matters for HCI*.

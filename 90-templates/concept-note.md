@@ -11,6 +11,13 @@ HCI CORE CONCEPT · WEEK {{week}}
 
 # {{title}}
 
+*{{standfirst: one-sentence takeaway}}*
+
+> [!abstract] At a glance
+> **What:** {{one-line definition}}
+> **Why:** {{the problem it solves}}
+> **See it:** {{one concrete example}}
+
 > *"{{quote}}"* — {{author}}
 
 ---
@@ -78,3 +85,8 @@ HCI CORE CONCEPT · WEEK {{week}}
 ## Related concepts
 - [[ ]]
 - [[ ]]
+
+---
+
+## Sources
+[^1]: {{citation}}

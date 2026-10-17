@@ -7,6 +7,13 @@ tags: [concept, week/01, norman, feedback, latency]
 
 # Feedback
 
+*The system's answer to 'did that work, and what happened?'*
+
+> [!abstract] At a glance
+> **What:** Information returned to the user about the action done and its result.
+> **Why:** Without timely, proportionate feedback people repeat inputs, doubt the system and blame themselves.
+> **See it:** A button that visibly depresses and responds immediately.
+
 > *"Feedback—sending back information about what action has been done and what result has been accomplished—is a well-known concept in the science of control and information theory."* — Don Norman
 
 ---

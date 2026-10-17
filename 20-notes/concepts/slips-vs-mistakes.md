@@ -7,6 +7,13 @@ tags: [concept, week/01, norman, human-error]
 
 # Slips vs. Mistakes
 
+*A slip is the right plan done wrong; a mistake is the wrong plan done right.*
+
+> [!abstract] At a glance
+> **What:** Slips are execution errors; mistakes are goal or plan errors.
+> **Why:** They need different design remedies: layout and constraints for slips, clear models for mistakes.
+> **See it:** Hitting the wrong adjacent key vs. setting a thermostat to 30 C to heat faster.
+
 ## Definition (my own words, ≤ 3 sentences)
 Human errors are fundamentally divided into **Slips** and **Mistakes**. A **Slip** occurs when the user has the correct goal and plan, but the subconscious motor execution fails or acts incorrectly (e.g., clicking the wrong adjacent button). A **Mistake** occurs when the user forms the wrong goal or plan due to an inaccurate mental model, even though they execute their planned actions with perfect physical precision.
 
@@ -36,8 +43,23 @@ Human errors are fundamentally divided into **Slips** and **Mistakes**. A **Slip
 |---|---|---|
 | **Underlying Cause** | Lapses in attention, habit intrusion, fatigue, or clumsy proximity | Inaccurate mental model, misunderstanding system rules |
 | **Stage of Action** | **Specify** or **Perform** (Execution stages) | **Goal** or **Plan** (Planning stages) |
-| **Cognitive Level** | **Behavioral** (Subconscious routines) | **Reflective** (Conscious thought & reasoning) |
+| **Cognitive Level** | **Behavioral** (Subconscious routines) | **Reflective** (knowledge-based) or **Behavioral** (rule-based) |
 | **User Awareness** | Often detected immediately via feedback (*"Oops, that slipped!"*) | Hard to detect; user believes they did the right thing until system fails |
+
+> [!warning] Correction · 2026-10-18
+> The note omitted Norman's subtypes. Verify wording against DOET Ch. 5 before citing.
+
+```
+┌─────────────────────────────┬──────────────────────────────────────────┐
+│ SLIPS (right goal, bad act) │ MISTAKES (wrong goal or plan)            │
+├─────────────────────────────┼──────────────────────────────────────────┤
+│ Action-based slip           │ Rule-based mistake (wrong rule applied)  │
+│  (capture, description,     │ Knowledge-based mistake (wrong model)    │
+│   mode-error slips)         │ Memory-lapse mistake (forgot a step      │
+│ Memory-lapse slip           │  while planning)                         │
+│  (forgot a step in action)  │                                          │
+└─────────────────────────────┴──────────────────────────────────────────┘
+```
 
 ---
 

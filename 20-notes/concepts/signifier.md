@@ -7,6 +7,13 @@ tags: [concept, week/01, norman, signifier, presentation]
 
 # Signifier
 
+*The perceivable cue that tells you where to act, how to act, and what state the system is in.*
+
+> [!abstract] At a glance
+> **What:** Any perceivable signal that communicates an affordance or system state.
+> **Why:** People can't use what they can't discover; screens have almost no physical affordances to lean on.
+> **See it:** A frosted decal on a glass door.
+
 > *"Affordances define what actions are possible. Signifiers specify where the action should take place."* — Don Norman
 
 ---

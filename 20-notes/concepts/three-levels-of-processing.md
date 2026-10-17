@@ -7,6 +7,13 @@ tags: [concept, week/01, norman, cognitive-psychology]
 
 # Three Levels of Processing
 
+*We react to design at three levels: gut feeling, skilled use, and reflective meaning.*
+
+> [!abstract] At a glance
+> **What:** Visceral, Behavioral and Reflective processing (Norman).
+> **Why:** Good design must work at all three, not just the functional one.
+> **See it:** A phone that looks gorgeous, responds fluently and makes its owner proud.
+
 ## Definition (my own words, ≤ 3 sentences)
 Human cognition processes experiences at three neurological levels: **Visceral**, **Behavioral**, and **Reflective**. Visceral is pre-conscious and biological (how things look and feel); Behavioral is subconscious and habit-driven (how things perform and respond); Reflective is the only conscious level, governing interpretation, storytelling, self-image, and long-term memory. Great design must address all three layers in balance.
 
@@ -30,12 +37,15 @@ Human cognition processes experiences at three neurological levels: **Visceral**
 └────────────────────────────────────────────────────────┘
 ```
 
+> [!warning] Correction · 2026-10-18
+> Two refinements. (1) "Universal across cultures" is too strong: Reinecke & Gajos (2014) found real cultural differences in visual preferences. An open research question for the visual design track (see `10-data/visual-design/curriculum.md`). (2) The upward arrows are misleading: Norman says influence flows **both ways**. Reflective judgments (brand, price) can change how something feels visceral-ly, and gut feeling colors reflection.
+
 ---
 
 ## Detailed Breakdown
 
 ### 1. Visceral Level (Appearance & Immediate Sensation)
-- **Nature:** Pre-reflective, biological, universal across cultures.
+- **Nature:** Pre-reflective, biological, largely shared across people (though aesthetic preferences also vary with culture and experience).
 - **Triggered by:** Sight, sound, touch, smell, balance.
 - **Design focus:** Aesthetics, material feel, sensory delight, physical responsiveness.
 - **Example:** The satisfying magnetic *thud* of a luxury car door closing; the tactile resistance of a machined aluminum volume knob.

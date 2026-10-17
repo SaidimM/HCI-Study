@@ -114,3 +114,61 @@ To ensure notes look stunning across **every Obsidian theme** (Default Dark, Min
 In high-end editorial publications, **captions are never lazy labels**:
 - ❌ **Label:** *"Figure 1: Tesla door handle."*
 - ✅ **Argument:** *"Tesla Model 3 Exterior Handle: The flush aerodynamic design strips away physical affordances and visible signifiers, causing first-time users to pause for 10+ seconds and experience self-blame."*
+
+---
+
+## 4. Magazine Components (added 2026-10-18)
+
+Borrowed from The Economist, Wired, Monocle, Businessweek and Tufte. They organize reading; none need heavy CSS.
+
+### Note anatomy (every note)
+```
+KICKER · DOMAIN
+# Title
+*Standfirst: one-sentence takeaway.*
+> [!abstract] At a glance   (definition · why · example)
+Body: short sections, ≤ 70 chars/line, `---` between sections
+Pull-quote
+Sidebar (callout)
+Editor's intention · Why it matters for HCI
+My thoughts
+Sources[^1]
+```
+
+### Component E: Kicker + Standfirst
+```markdown
+<p style="font-size: 0.8em; text-transform: uppercase; letter-spacing: 2px; opacity: 0.6; margin-bottom: 2px;">HCI CORE CONCEPT · WEEK 01</p>
+
+# Signifier
+
+*A signal that tells you where the action happens, and what state the system is in.*
+```
+
+### Component F: At-a-glance box
+```markdown
+> [!abstract] At a glance
+> **What:** one-line definition
+> **Why:** the problem it solves
+> **See it:** one concrete example
+```
+
+### Component G: Sidebar (Monocle-style)
+Side material that must not interrupt the argument.
+```markdown
+> [!note] Sidebar · Gibson vs. Norman
+> Gibson's affordance is relational; Norman's signifier is the perceivable cue.
+```
+
+### Component H: Big-number callout (Businessweek-style)
+```html
+<p style="font-size: 2.4em; font-weight: 700; line-height: 1; margin: 0;">50 ms</p>
+<p style="font-size: 0.8em; opacity: 0.7; margin-top: 2px;">time users need to judge a website's visual appeal (Lindgaard et al.)</p>
+```
+
+### Component I: Footnotes as marginalia (Tufte)
+Put sources and asides in `[^1]` footnotes so the body stays clean.
+
+### Rules
+- One idea per note, ≤ 1 screen per section.
+- Fixed section names per note type ("departments") so the reader always knows where to look.
+- Monochrome and theme-adaptive; hierarchy via size, weight, space, never color.

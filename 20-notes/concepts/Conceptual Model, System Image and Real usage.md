@@ -7,6 +7,13 @@ tags: [concept, week/01, norman, mental-models, system-image]
 
 # Conceptual Models & The System Image
 
+*Designers and users never meet; the product itself is the only message between them.*
+
+> [!abstract] At a glance
+> **What:** Design model, user's model and system image (Norman's triad).
+> **Why:** When the system image misleads, users build wrong models and make mistakes.
+> **See it:** A thermostat whose interface implies 'higher setting heats faster'.
+
 > *"The designer’s conceptual model must match the user’s conceptual model. But the designer never talks directly to the user—everything is communicated through the System Image."* — Don Norman
 
 ---

@@ -11,6 +11,13 @@ HCI CORE CONCEPT · NORMAN ACTION CYCLE
 
 # Gulf of Execution
 
+*The distance between what you want to do and what the system lets you do.*
+
+> [!abstract] At a glance
+> **What:** The gap between a goal and the actions the interface offers.
+> **Why:** It is where users get stuck asking 'how do I do this?'.
+> **See it:** A feature hidden behind an unlabeled gesture.
+
 > *"The Gulf of Execution answers the user's silent question: How do I operate this device to achieve my intention? The difference between intentions and allowable actions is the measure of the gulf."* — Don Norman
 
 ---

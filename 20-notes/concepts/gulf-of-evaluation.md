@@ -11,6 +11,13 @@ HCI CORE CONCEPT · NORMAN ACTION CYCLE
 
 # Gulf of Evaluation
 
+*The distance between what the system did and your ability to tell whether it worked.*
+
+> [!abstract] At a glance
+> **What:** The gap between system state and the user's perception and interpretation of it.
+> **Why:** It is where users get stuck asking 'did that work?'.
+> **See it:** A form that submits with no visible confirmation.
+
 > *"The Gulf of Evaluation reflects the amount of effort that the person must exert to interpret the physical state of the system and to determine how well the expectations and intentions have been met."* — Don Norman
 
 ---

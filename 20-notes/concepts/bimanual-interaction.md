@@ -11,6 +11,13 @@ HCI CORE CONCEPT · MOTOR CONTROL & INPUT PARADIGMS
 
 # Bimanual Interaction & Guiard's Kinematic Chain
 
+*Two hands working as a team: one sets the frame, the other does the precise work.*
+
+> [!abstract] At a glance
+> **What:** Using both hands cooperatively, following Guiard's kinematic chain model.
+> **Why:** It can remove mode switching and shorten interaction.
+> **See it:** Non-dominant hand anchors depth while the dominant hand works in the plane.
+
 > *"The two hands represent a cooperative serial linkage: the non-dominant hand defines the spatial frame of reference, while the dominant hand performs fine manipulation within that frame."* — Yves Guiard (1987)
 
 ---
