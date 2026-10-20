@@ -4,7 +4,7 @@ title: "Design Principles, Mental Models & Heuristics"
 start: 2026-10-12
 due: 2026-10-18
 homework: "Heuristic Evaluation of a Developer Tool"
-status: in-progress   # not-started | in-progress | submitted | graded
+status: graded   # not-started | in-progress | submitted | graded
 tags: [course, week/02]
 ---
 
@@ -15,9 +15,9 @@ tags: [course, week/02]
 
 ## 🎯 Learning goals
 
-- [ ] Apply Nielsen's 10 heuristics systematically
-- [ ] Explain mental models vs. conceptual models
-- [ ] Rate usability problems by severity
+- [x] Apply Nielsen's 10 heuristics systematically
+- [x] Explain mental models vs. conceptual models
+- [x] Rate usability problems by severity
 
 ## 📚 Materials
 
@@ -41,12 +41,12 @@ tags: [course, week/02]
 
 ## 🧠 Concept notes to create this week
 
-- [ ] [[nielsen-heuristics]]
-- [ ] [[mental-model]]
-- [ ] [[conceptual-model]]
-- [ ] [[severity-rating]]
-- [ ] [[constraints]]
-- [ ] [[mapping]]
+- [x] [[nielsen-heuristics]]
+- [x] [[mental-model]]
+- [x] [[conceptual-model]]
+- [x] [[severity-rating]]
+- [x] [[constraints]]
+- [x] [[mapping]]
 
 ## 📝 Homework 02 — Heuristic Evaluation of a Developer Tool
 
@@ -55,10 +55,10 @@ Define **2 realistic tasks**, walk through them **twice** (first pass: get the f
 
 **Deliverables**
 
-- [ ] Task definitions (2)
-- [ ] Table of **≥ 8 violations**: screen, heuristic, description, severity 0–4, screenshot
-- [ ] Top 3 problems with concrete redesign proposals (sketch or annotated screenshot)
-- [ ] 1 paragraph: where does the tool's conceptual model clash with your mental model?
+- [x] Task definitions (2)
+- [x] Table of **≥ 8 violations**: screen, heuristic, description, severity 0–4, screenshot
+- [x] Top 3 problems with concrete redesign proposals (sketch or annotated screenshot)
+- [x] 1 paragraph: where does the tool's conceptual model clash with your mental model?
 
 **Rubric (/15)**
 
@@ -74,13 +74,13 @@ Define **2 realistic tasks**, walk through them **twice** (first pass: get the f
 
 ## ✅ Definition of done
 
-- [ ] Lecture notes written
-- [ ] All concept notes created (in your own words)
-- [ ] Paper note written
-- [ ] `20-notes/homework/hw02-heuristic-evaluation/submission.md` complete
-- [ ] `20-notes/homework/hw02-heuristic-evaluation/grade.md` self-graded (optional: sent to TA for review)
-- [ ] Weekly review in journal
-- [ ] Post drafted in `30-posts/`
+- [x] Lecture notes written
+- [x] All concept notes created (in your own words)
+- [x] Paper note written
+- [x] `20-notes/homework/hw02-heuristic-evaluation/submission.md` complete
+- [x] `20-notes/homework/hw02-heuristic-evaluation/grade.md` self-graded (optional: sent to TA for review)
+- [x] Weekly review in journal
+- [x] Post drafted in `30-posts/`
 
 ## 📣 Post idea
 

@@ -1,11 +1,11 @@
 # 🏠 Home
 
-> **Now:** Week 2 — [[week-02|Design Principles, Mental Models & Heuristics]] · due **Sun Oct 18**
+> **Now:** Week 3 — [[week-03|Human Abilities: Perception, Memory & Motor Control]] · due **Sun Oct 25**
 > *(Update this line every Monday.)*
 
 ## Quick links
 - 📘 [[syllabus]] · 📅 [[schedule]] · 🎯 [[phd-roadmap]]
-- 📝 Current homework: [[20-notes/homework/hw02-heuristic-evaluation/submission|HW02 submission]]
+- 📝 Current homework: [[20-notes/homework/hw03-fitts-law-experiment/submission|HW03 submission]] (Week 2 completed: [[20-notes/homework/hw02-heuristic-evaluation/submission|HW02 Amap & BusAssistant]])
 - 💭 [[inbox]] · ❓ [[questions]] · 💡 [[post-ideas]]
 - 📡 Latest papers: `10-data/sources/arxiv-digests/`
 

@@ -1,8 +1,9 @@
 ---
 type: concept
+aliases: [mental-model, conceptual-model, Mental Model, Conceptual Model]
 first_seen: week-01
 source: "Norman, The Design of Everyday Things (Ch. 1 & 2)"
-tags: [concept, week/01, norman, mental-models, system-image]
+tags: [concept, week/01, week/02, norman, mental-models, system-image]
 ---
 
 # Conceptual Models & The System Image
